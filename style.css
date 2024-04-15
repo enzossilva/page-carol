@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(26, 50, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 45px;
+    margin-top: 18px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 15px;
+}
+
+.menu li a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(26, 50, 50);
+    padding: 10px 20px;
+}
+
+.text {
+    margin-left: 45px;
+    margin-top: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.image-1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+    width: 33%;
+    margin-top: 37px;
+    margin: 20px;
+    margin-left: 60px;
+
+}
+
+.image-2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin: 20px;
+}
+
+.title {
+    font-family: 'Shadows Into Light', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 26px;
+    margin: 20px;
+    height: 30%;
+}
+
+.second-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 15px;
+    font-size: 22px;
+    width: 100%;
+    height: 90%;
+
+}
+
+.midle-text {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.h3-text {
+    display: flex;
+    font-size: 26px;
+    font-family: 'Shadows Into Light', cursive;
+    width: 15%;
+    height: 20%;
+    justify-content: center;
+}
+
+
+
+.right-side {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 40px;
+
+}
+
+.text-photo-1 {
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+}
+
+p {
+    display: flex;
+    width: 100%;
+}
+
+.ato {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 10vh;
+}
+
+.ato-1 {
+    width: 45%;
+
+}
+
+.title-ato {}
+
+.image-3 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 25vh;
+}
+
+.text-2 {
+    width: 59%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.div-2-ato {
+    width: 50%;
+    margin: 15px;
+}
+
+.image-4 {
+    display: flex;
+    justify-content: center;
+    height: 40%;
+}
+
+.image-5 {
+    width: 30%;
+    height: 100%;
+}
+
+.image-6 {
+    width: 30%;
+    height: 100%;
+}
+
+.image-7 {
+    width: 30%;
+    height: 100%;
+}
+
+.images-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    margin-top: 65px;
+    height: 60%;
+
+}
+
+.ato-2 {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 10vh;
+}
+
+.ato-II {
+    width: 35%;
+}
+
+.title-ato-II {
+    margin: 20px;
+}
+
+.image-8 {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+    margin-left: 5vh;
+}
+
+.text-3 {
+    width: 19%;
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: normal;
+    margin-top: 20vh;
+    text-align: justify;
+    margin-left: 20vh;
+}
+
+.images-ato-II {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.image-9 {
+    height: 45%;
+    width: 60%;
+    margin: 20px;
+}
+
+.image-10 {
+    height: 45%;
+    width: 60%;
+    margin: 20px;
+}
+
+.ato-3 {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 10vh;
+}
+
+.ato-III {
+    width: 20%;
+    height: 50%;
+}
+
+.title-ato-III {
+    height: 50%;
+    margin-top: 5vh;
+}
+
+.image-12 {
+    margin: 5px;
+    margin-top: 25vh;
+}
+
+.div-ato-III {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+
+
+}
+
+.images-grid-2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 2px;
+    width: 50%;
+    height: 60%;
+    margin-left: 5vh;
+}
+
+.text-4 {
+    width: 30%;
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-right: 3vh;
+}
+
+.ato-4 {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 30px;
+    margin-top: 12vh;
+}
+
+.ato-IV {
+    width: 80%;
+}
+
+.title-ato-IV {
+    width: 20%;
+}
+
+.text-5 {
+    margin: 5px;
+    width: 58%;
+    margin-left: 15vh;
+    margin-top: 6vh;
+    letter-spacing: 2px;
+    text-align: justify;
+
+}
+
+.images-grid-3 {
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin-left: 4vh;
+}
+
+.images-13 {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-14 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.div-image-14 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ato-5 {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 30px;
+    margin-top: 12vh;
+    margin: 3vh;
+}
+
+.title-ato-V {}
+
+.image-15 {
+    width: 50%;
+    justify-content: center;
+    margin-top: 3vh;
+    margin: 15px;
+}
+
+.image-16 {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 7vh;
+    margin: 15px;
+    flex-direction: row;
+    display: flex;
+}
+
+.image-17 {
+    width: 100%;
+    height: 40%;
+    justify-content: space-between;
+    margin-top: 3vh;
+    margin: 15px;
+    flex-direction: row;
+}
+
+.text-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 20%;
+}
